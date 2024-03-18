@@ -11,13 +11,8 @@ int main()
     std::cout << word << " | lenght: " << word.length() << std::endl;
     std::cout << std::endl;
 
-    char a;
-    char b;
-    int num = word.length();
-
-    a = word[0];
-    b = word[num - 1];
-
+    char a = word.front();
+    char b = word.back();
 
     std::cout << a << " " << b;
     std::cout << std::endl;
